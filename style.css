@@ -93,7 +93,7 @@
  
  .btn{
    cursor: pointer;
-   background-color: #9c88ff;
+   background-color: rgb(40, 40, 224);
    box-shadow: var(---box-shadow);
    color:#fff;
    border: 0;
@@ -101,9 +101,22 @@
    font-size:  16px;
    margin: 10px 0 30px;
    padding: 10px;
-   width: 100px;
+   width: 100%;
  
  }
+ .btn:hover{
+  cursor: pointer;
+  background-color: rgb(17, 17, 167);
+  box-shadow: var(---box-shadow);
+  color:#fff;
+  border: 0;
+  display: block;
+  font-size:  16px;
+  margin: 10px 0 30px;
+  padding: 10px;
+  width: 100%;
+
+}
  
  .btn:focus,.delete-btn:focus{
    outline: 0;
@@ -159,4 +172,11 @@
  
  #list li{
     color:black;
+ }
+
+ .headerr{
+  font-size: 3rem;
+  font-family: sans-serif;
+  font-weight: 500;
+  
  }
